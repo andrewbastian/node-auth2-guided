@@ -1,6 +1,7 @@
 const express = require("express")
 const Users = require("./users-model")
-const restrict = require("../middleware/restrict")
+// add {} to destructure function
+const { restrict } = require("../middleware/restrict")
 
 const router = express.Router()
 
